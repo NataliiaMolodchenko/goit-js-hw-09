@@ -34,6 +34,29 @@ button {
   cursor: pointer;
 }
 
+.home-page{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  padding: 24px;
+  justify-content: center;
+  text-shadow: 0 3px 1px rgba(22, 95, 143, 0.2);
+}
+
+.home-page a{
+  border: 2px solid #4e75ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 1px #cfd1f6;
+  padding: 10px 12px;
+}
+
+.home-page a:hover,
+.home-page a:focus{
+  color: #4e75ff;
+  outline: none;
+}
+
 /*#region Gallery*/
 .gallery {
   display: flex;
